@@ -15,6 +15,7 @@ public class UserDTO implements Serializable {
 	}
 
 	public UserDTO(User obj) {
+		super();
 		this.id = obj.getId();
 		this.name = obj.getName();
 		this.email = obj.getEmail();
